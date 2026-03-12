@@ -1,0 +1,5 @@
+{
+  "name": "學測落點分析預測系統",
+  "description": "輸入學測成績與興趣學群，AI 幫你預測可能錄取的大學校系與機率。",
+  "requestFramePermissions": []
+}

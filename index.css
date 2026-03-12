@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans TC", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif TC", ui-serif, Georgia, serif;
+}
+
+body {
+  background-color: #F9F8F6; /* Warm off-white */
+  color: #2C2C2A; /* Soft black */
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar for the modal */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1D1C7;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A3A39A;
+}
